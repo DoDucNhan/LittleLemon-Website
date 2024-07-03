@@ -24,6 +24,7 @@ from .serializers import (
     UserSerilializer
 )
 
+
 class CategoriesView(generics.ListCreateAPIView):
     throttle_classes = [AnonRateThrottle, UserRateThrottle]
     queryset = Category.objects.all()
@@ -35,6 +36,7 @@ class CategoriesView(generics.ListCreateAPIView):
             permission_classes = [IsAuthenticated]
 
         return [permission() for permission in permission_classes]
+
 
 class MenuItemsView(generics.ListCreateAPIView):
     throttle_classes = [AnonRateThrottle, UserRateThrottle]

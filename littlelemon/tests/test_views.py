@@ -1,10 +1,11 @@
 from django.test import TestCase
-from restaurant.models import MenuItem
+from restaurant.models import Menu
+
 
 class MenuItemsViews(TestCase):
     def setUp(self):
-        shakshuka = MenuItem.objects.create(dish='shakshuka', price=8.50, inventory=10)
-        Hummus = MenuItem.objects.create(dish='Hummus', price=5.00, inventory=20)
+        shakshuka = Menu.objects.create(name='shakshuka', price=8.50)
+        Hummus = Menu.objects.create(name='Hummus', price=5.00)
     
     def test_menu_items_list(self):
         response = self.client.get('/menu/')

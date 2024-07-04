@@ -1,0 +1,34 @@
+Admin:
+    username: admin 
+    email: admin@example.com
+    password: admin@123!    
+    token: e722f9dcb873adf63691e09bc00d58575b1e318a
+
+Manager:
+    username: David
+    email: david@example.com
+    password: david@lemon
+    token: d483a4d654691e4b85372cc30797c363dc600852
+
+Delivery Crew
+    username: Emanon
+    email: emanon@example.com
+    password: emanon@lemon
+    token: d32243f0f6bcb93fee7b1173097c18c48cd135d6
+
+    username: Daijin
+    email: daijin@example.com
+    password: daijin@lemon
+    token: dc6aa92dd8a31199a52950a4e7818840207ac3a8
+
+Users
+    username: Nana
+    email: nana@example.com
+    password: nana@lemon
+    token: 8b9aa3ffdecf98ea19b87898313cab6eeed62aa4
+
+    username: Ichi
+    email: ichi@example.com
+    password: ichi@lemon
+    token: 742fa632ebc041eaa9d4581ff3ca703738f72f03
+

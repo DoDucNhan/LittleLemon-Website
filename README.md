@@ -1,10 +1,10 @@
 # LittleLemon-Website
 This project is the final assignment of the Meta Backend Developer Professional Certificate on Coursera
+![landpage](https://github.com/user-attachments/assets/ad3aa0bc-27c8-4a07-8772-0a0bb94832d1)
 
 # Project Structure
 The project is composed of two apps, `api` and `restaurant`. The `api` app serves API endpoints of the project, while the `restaurant` app serves its front-end. 
 <br> <br>
-![landpage](https://github.com/user-attachments/assets/ad3aa0bc-27c8-4a07-8772-0a0bb94832d1)
 
 # Installation
 
